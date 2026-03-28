@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion, useInView, useScroll, useTransform, useMotionValueEvent } from 'framer-motion'
-import { useRef, useState, useEffect } from 'react'
+import { useRef, useState } from 'react'
 import { FiBookOpen, FiCode, FiAward } from 'react-icons/fi'
 
 const Timeline = () => {
