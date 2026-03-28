@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion, useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
-import { FiExternalLink, FiGithub, FiShoppingCart, FiClipboard, FiCpu, FiPenTool } from 'react-icons/fi'
+import { FiExternalLink, FiGithub, FiShoppingCart, FiClipboard, FiCpu, FiPenTool, FiFileText, FiBook } from 'react-icons/fi'
 import { FaBuilding } from 'react-icons/fa'
 
 const Projects = () => {
@@ -19,31 +19,40 @@ const Projects = () => {
             live: '',
         },
         {
-            title: 'E-Commerce Platform',
+            title: 'AI Resume Analyzer',
             description:
-                'A full-featured online shopping platform with user authentication, product management, cart system, and secure payment integration.',
-            tags: ['React', 'Node.js', 'MongoDB', 'Express'],
+                'An AI-powered resume analysis platform that scores resumes against job descriptions, detects missing skills, checks ATS compatibility, and provides smart improvement suggestions — all powered by Google Gemini AI.',
+            tags: ['Next.js', 'FastAPI', 'Google Gemini AI', 'Python', 'Vercel'],
+            icon: <FiFileText />,
+            github: 'https://github.com/blunder149-arch/AI-Resume-Analyzer.git',
+            live: 'https://ai-resume-analyzer-virid-two.vercel.app/dashboard',
+        },
+        {
+            title: 'Chaudhary Vegetables',
+            description:
+                'A live e-commerce platform for a real vegetable shop — featuring product listings, cart management, user authentication, order placement, and an admin panel for inventory and order management. Currently running in production.',
+            tags: ['React', 'Node.js', 'MongoDB', 'Express', 'Vercel'],
             icon: <FiShoppingCart />,
-            github: '#',
-            live: '#',
+            github: 'https://github.com/karanchaudhary9170-ctrl/fresh-veggies-shop.git',
+            live: 'https://fresh-veggies-shop.vercel.app/',
         },
         {
-            title: 'Task Management App',
+            title: 'BG Remover',
             description:
-                'A collaborative task management tool with real-time updates, drag-and-drop functionality, and team workspace features.',
-            tags: ['React', 'Firebase', 'Tailwind CSS'],
-            icon: <FiClipboard />,
-            github: '#',
-            live: '#',
-        },
-        {
-            title: 'AI Chat Assistant',
-            description:
-                'An intelligent chatbot application powered by AI APIs with natural language processing and contextual conversation abilities.',
-            tags: ['Python', 'React', 'OpenAI API'],
+                'An AI-powered background removal tool using the U2NET deep learning model. Instantly removes backgrounds with pixel-perfect edge detection — 100% private, no sign-up, no watermarks. Built for personal use and used by friends daily.',
+            tags: ['Python', 'Flask', 'U2NET', 'JavaScript', 'Hugging Face'],
             icon: <FiCpu />,
-            github: '#',
-            live: '#',
+            github: 'https://github.com/blunder149-arch/BGEraser.git',
+            live: 'https://karan-28-bgeraser.hf.space/',
+        },
+        {
+            title: 'Smart Study Buddy',
+            description:
+                'An AI-powered personal study companion with chapter-wise context selection, AI chat for doubt solving, virtual classroom, and an intelligent search bar — designed to make self-study smarter and faster.',
+            tags: ['React', 'Vite', 'Firebase', 'Gemini AI', 'Vercel'],
+            icon: <FiBook />,
+            github: 'https://github.com/blunder149-arch/smart-study-buddy.git',
+            live: 'https://smart-study-buddy-kohl.vercel.app',
         },
         {
             title: 'Portfolio Generator',
