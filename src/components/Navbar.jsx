@@ -28,7 +28,7 @@ const Navbar = () => {
             lastScrollY.current = currentScrollY
 
             // Detect active section
-            const sections = ['about', 'skills', 'timeline', 'projects', 'designs', 'contact']
+            const sections = ['about', 'skills', 'timeline', 'projects', 'designs', 'resume', 'contact']
             for (const id of sections.reverse()) {
                 const el = document.getElementById(id)
                 if (el && currentScrollY >= el.offsetTop - 200) {
@@ -48,6 +48,7 @@ const Navbar = () => {
         { label: 'Journey', href: '#timeline', id: 'timeline' },
         { label: 'Projects', href: '#projects', id: 'projects' },
         { label: 'Designs', href: '#designs', id: 'designs' },
+        { label: 'Resume', href: '#resume', id: 'resume' },
         { label: 'Contact', href: '#contact', id: 'contact' },
     ]
 

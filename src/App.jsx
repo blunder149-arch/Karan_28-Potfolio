@@ -8,6 +8,7 @@ import Timeline from './components/Timeline'
 import Projects from './components/Projects'
 import Designs from './components/Designs'
 import Contact from './components/Contact'
+import Resume from './components/Resume'
 import Footer from './components/Footer'
 import CursorGlow from './components/CursorGlow'
 import ParticleBackground from './components/ParticleBackground'
@@ -38,6 +39,7 @@ function App() {
         <Timeline />
         <Projects />
         <Designs />
+        <Resume />
         <Contact />
       </main>
       <Footer />
