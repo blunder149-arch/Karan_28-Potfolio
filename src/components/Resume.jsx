@@ -80,6 +80,7 @@ const Resume = () => {
                             <a
                                 href="/resume/karan-resume.pdf"
                                 target="_blank"
+
                                 rel="noopener noreferrer"
                                 className="resume-btn-view"
                             >
@@ -107,9 +108,9 @@ const Resume = () => {
                         <div className="resume-placeholder-icon">
                             <FiFileText />
                         </div>
-                        <p className="resume-placeholder-title">Resume Preview</p>
+                        <p className="resume-placeholder-title">Karan Chaudhary</p>
                         <p className="resume-placeholder-sub">
-                            📎 Resume will be available here soon!
+                            📎 Full Stack Developer • Ready to Download
                         </p>
 
                         {/* Fake resume lines */}
